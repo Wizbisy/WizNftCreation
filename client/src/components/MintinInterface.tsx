@@ -88,14 +88,14 @@ export default function MintingInterface() {
         const balance = await refetch();
         if (!balance.data?.formatted || !chainId) {
             toast.error(
-                "Insufficient balance to mint NFT. Please ensure you have at least 0.001 ETH."
+                "Insufficient balance to mint NFT. Please ensure you have at least 0.000000001 ETH."
             );
             return;
         }
         if (balance.data?.formatted && chainId) {
-            if (Number(balance.data.formatted) < 0.001) {
+            if (Number(balance.data.formatted) < 0.000000001) {
                 toast.error(
-                    "Insufficient balance to mint NFT. Please ensure you have at least 0.001 ETH."
+                    "Insufficient balance to mint NFT. Please ensure you have at least 0.000000001 ETH."
                 );
                 return;
             }
@@ -130,7 +130,7 @@ export default function MintingInterface() {
                 abi: BaseNFT.abi,
                 functionName: "mint",
                 args: [metadataIpfsUri],
-                value: BigInt(1e15), // 0.001 ETH in wei // Fixed value for minting
+                value: 0n, // 0.00 ETH in wei // Fixed value for minting
             });
             setStatus("NFT Minted successfully");
             setTimeout(() => {
