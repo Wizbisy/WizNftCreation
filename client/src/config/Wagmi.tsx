@@ -18,9 +18,9 @@ const queryClient = new QueryClient(); // it is just using for Wagmi.
 
 // Set up metadata
 const metadata = {
-    name: "uniswap-clone",
-    description: "AppKit Example",
-    url: "https://appkitexampleapp.com", // origin must match your domain & subdomain
+    name: "uni",
+    description: "Mint you nft onchain",
+    url: "https://mint-nft-dapp-lyart.vercel.app/", // origin must match your domain & subdomain
     icons: ["https://avatars.githubusercontent.com/u/179229932"],
 };
 
