@@ -10,11 +10,12 @@ export function Navbar() {
                     <Link href="/" className="flex items-center gap-2">
                         <div className="relative h-10 w-10 overflow-hidden rounded-full bg-gradient-to-r from-dex-purple to-dex-blue">
                             <div className="absolute inset-0 flex items-center justify-center text-white font-bold">
-                                NFT
+                                WIZ
                             </div>
                         </div>
                         <span className="hidden font-bold text-xl sm:inline-block gradient-text">
-                            Minting Dapp
+                            {/* .. */}
+                            nft creation
                         </span>
                     </Link>
                 </div>
