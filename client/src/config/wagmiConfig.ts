@@ -1,13 +1,6 @@
 import { WagmiAdapter } from "@reown/appkit-adapter-wagmi";
 import {
-    arbitrum,
     base,
-    baseSepolia,
-    hardhat,
-    mainnet,
-    polygon,
-    scroll,
-    sepolia,
 } from "@reown/appkit/networks";
 import { cookieStorage, createStorage } from "@wagmi/core";
 
@@ -19,14 +12,7 @@ if (!projectId) {
 }
 
 export const networks = [
-    mainnet,
-    arbitrum,
-    sepolia,
     base,
-    baseSepolia,
-    scroll,
-    polygon,
-    hardhat,
 ];
 
 //Set up the Wagmi Adapter (Config)

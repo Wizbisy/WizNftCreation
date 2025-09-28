@@ -4,14 +4,7 @@
 import { wagmiAdapter, projectId, config } from "@/config/wagmiConfig";
 import { createAppKit } from "@reown/appkit/react";
 import {
-    mainnet,
-    arbitrum,
-    sepolia,
     base,
-    scroll,
-    polygon,
-    hardhat,
-    baseSepolia,
 } from "@reown/appkit/networks";
 import React, { type ReactNode } from "react";
 import { cookieToInitialState, WagmiProvider, type Config } from "wagmi";
@@ -36,16 +29,9 @@ const modal = createAppKit({
     adapters: [wagmiAdapter],
     projectId,
     networks: [
-        mainnet,
-        sepolia,
         base,
-        baseSepolia,
-        scroll,
-        polygon,
-        arbitrum,
-        hardhat,
     ],
-    defaultNetwork: mainnet,
+    defaultNetwork: base,
     metadata: metadata,
     // features: {
     //     analytics: true, // Optional - defaults to your Cloud configuration

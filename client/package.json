@@ -1,8 +1,8 @@
 {
-    "name": "uniswap-clone",
+    "name": "uni",
     "version": "0.1.0",
     "private": true,
-    "author": "Abbas Ali",
+    "author": "uni",
     "scripts": {
         "dev": "next dev --turbopack",
         "build": "next build",
@@ -43,6 +43,7 @@
         "three": "^0.175.0",
         "three-stdlib": "^2.36.0",
         "use-debounce": "^10.0.4",
+        "uuid": "^13.0.0",
         "viem": "^2.27.2",
         "wagmi": "^2.14.16"
     },

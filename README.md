@@ -85,6 +85,7 @@ cd mintnftdapp
     ```bash
     cd contract
     npm install
+    npm install uuid
     ```
 
 2. **Configure Environment:**
