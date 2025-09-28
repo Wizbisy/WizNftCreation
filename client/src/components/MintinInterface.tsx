@@ -130,7 +130,7 @@ export default function MintingInterface() {
                 abi: BaseNFT.abi,
                 functionName: "mint",
                 args: [metadataIpfsUri],
-                value: 0n, // 0.00 ETH in wei // Fixed value for minting
+                value: BigInt(0), // 0.00 ETH in wei // Fixed value for minting
             });
             setStatus("NFT Minted successfully");
             setTimeout(() => {
