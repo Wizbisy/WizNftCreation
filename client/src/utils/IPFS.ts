@@ -1,4 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
+/* 
+   removal of pinata and introduction of irys
+*/
+let y: string = "hello";
 import { PinataSDK } from "pinata-web3";
 import { v4 as uuidv4 } from "uuid";
 const pinata = new PinataSDK({
