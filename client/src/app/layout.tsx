@@ -9,8 +9,8 @@ import { headers } from "next/headers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-    title: "Base NFT Collection",
-    description: "A modern NFT Minting Dapp built with Next.js",
+    title: "Wiz Nft Creation",
+    description: "A modern NFT Minting Dapp for creating and minting nfts on base built with Next.js",
 };
 
 export default async function RootLayout({
