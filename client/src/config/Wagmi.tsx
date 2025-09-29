@@ -18,8 +18,8 @@ const queryClient = new QueryClient(); // it is just using for Wagmi.
 
 // Set up metadata
 const metadata = {
-    name: "uni",
-    description: "Mint you nft onchain",
+    name: "W-N-C",
+    description: "create and mint your nft onchain",
     url: "https://mint-nft-dapp-lyart.vercel.app/", // origin must match your domain & subdomain
     icons: ["https://avatars.githubusercontent.com/u/179229932"],
 };
