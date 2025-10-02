@@ -1,4 +1,3 @@
-
 # Base NFT Collection
 
 A modern, full-stack NFT Minting Dapp built with [Next.js](https://nextjs.org/) for the [Base Network](https://base.org/).  
@@ -144,4 +143,4 @@ This project is licensed under the MIT License.
 -   [OpenZeppelin](https://openzeppelin.com/)
 -   [Pinata](https://pinata.cloud/)
 -   [Sepolia Base Network](https://sepolia.basescan.org/)
--   
+-   [@codewithabbasss](https://github.com/codewithabbass)
