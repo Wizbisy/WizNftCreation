@@ -1,9 +1,9 @@
-import BaseNFTCollection from "@/config/abi/BaseNFT.json";
+import WizNftCreation from "@/config/abi/BaseNFT.json";
 import { Abi, Address } from "viem";
 
 export const BaseNFT = {
-    abi: BaseNFTCollection.abi as Abi,
-    address: "0xa9f2eF241F2E5923744CD9717F3175aACc3276c1" as Address, // Replace with the actual deployed contract address
+    abi: WizNftCreation.abi as Abi,
+    address: "0xd6B7f55c666504b35FEeCfe052574EF21D95261F" as Address,
 };
 export const Contracts = {
     BaseNFT,
