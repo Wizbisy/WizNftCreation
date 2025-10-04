@@ -88,7 +88,7 @@ export default function MintingInterface() {
         const balance = await refetch();
         if (!balance.data?.formatted || !chainId) {
             toast.error(
-                "Insufficient balance to mint NFT. Please ensure you have at least 0.0000000000001 ETH."
+                "invalid chain, please switch to Base."
             );
             return;
         }
